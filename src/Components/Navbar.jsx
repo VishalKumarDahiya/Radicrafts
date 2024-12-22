@@ -9,18 +9,7 @@ const Navbar = () => {
             sx={{ backgroundColor: "#800020" }}
         >
             <Toolbar>
-                <Container
-                    maxWidth="lg"
-                    sx={{
-                        display: "flex",
-                        gap: "5px",
-                        margin: 0,
-                        paddingLeft: 20,
-                        paddingRight: 0,
-                        justifyContent: "space-between",
-                    }}
-                >
-                    <Typography
+            <Typography
                         href="/"
                         component="a"
                         variant="h6"
@@ -35,6 +24,17 @@ const Navbar = () => {
                     >
                         Radicrafts
                     </Typography>
+                <Container
+                    maxWidth="lg"
+                    sx={{
+                        display: "flex",
+                        gap: "5px",
+                        margin: 0,
+                        paddingLeft: 20,
+                        paddingRight: 0,
+                        justifyContent: "space-between",
+                    }}
+                >
                     <div display="flex" justify-content="space-between">
                         <Button color="inherit" href="/">
                             Home
