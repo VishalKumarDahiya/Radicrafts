@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar"
 
 
 function App() {
 
-    return <h1>Jai Shivani</h1>
+    return <>
+        <Navbar></Navbar></>
 }
 
 export default App;
