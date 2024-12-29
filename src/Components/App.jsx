@@ -8,11 +8,11 @@ function App() {
 
     return <>
         <Navbar></Navbar>
-        <div class="mainContent">
-            <div class="logo">
+        <div className="mainContent">
+            <div className="logo">
                 <img src={radicraftLogo} alt="radicraft logo"  />
             </div>
-            <div class="tagline">
+            <div className="tagline">
                 <p>We are building an amazing website where you can purchage, customize and consult gift items for your loved ones as well as home decor items</p>
             </div>
         </div>
