@@ -10,7 +10,7 @@ function App() {
         <Navbar></Navbar>
         <div className="mainContent">
             <div className="logo">
-                <img src={radicraftLogo} alt="radicraft logo"  />
+                <img src={radicraftLogo} alt="radicraft-logo"  />
             </div>
             <div className="tagline">
                 <p>We are building an amazing website where you can purchage, customize and consult gift items for your loved ones as well as home decor items</p>
