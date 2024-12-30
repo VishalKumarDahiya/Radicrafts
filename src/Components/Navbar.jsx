@@ -6,7 +6,7 @@ const Navbar = () => {
         <AppBar
             position="static"
             className="Navbar"
-            sx={{ backgroundColor: "#800020" }}
+            sx={{ backgroundColor: "#800020", width:"100%"}}
         >
             <Toolbar>
             <Typography
@@ -14,7 +14,7 @@ const Navbar = () => {
                         component="a"
                         variant="h6"
                         sx={{
-                            mr: 20,
+                            mr: 10,
                             ml: 0,
                             fontWeight: 700,
                             letterSpacing: ".2rem",
@@ -25,12 +25,13 @@ const Navbar = () => {
                         Radicrafts
                     </Typography>
                 <Container
-                    maxWidth="lg"
+                    maxWidth={false}
+                    disableGutters
                     sx={{
                         display: "flex",
-                        gap: "5px",
                         margin: 0,
-                        paddingLeft: 20,
+                        flexWrap:"wrap",
+                        paddingLeft: 10,
                         paddingRight: 0,
                         justifyContent: "space-between",
                     }}
